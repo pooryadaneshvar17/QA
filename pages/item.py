@@ -12,12 +12,15 @@ class Item():
         self.item2=page.locator("#add-to-cart-sauce-labs-bike-light")
         self.item3=page.locator("#add-to-cart-sauce-labs-bolt-t-shirt")
 
+        self.shoping_cart=page.locator('[data-test="shopping-cart-badge"]')
+
 
     def item_click(self):
 
         self.item1.click()
         self.item2.click()
         self.item3.click()
+
 
 
 
