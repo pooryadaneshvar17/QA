@@ -12,6 +12,9 @@ class Cart():
         self.t_shirt=page.get_by_text("Sauce Labs Bolt T-Shirt",exact=True)
 
 
+        self.check=page.locator("#checkout")
+
+
 
 
 
