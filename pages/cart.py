@@ -21,9 +21,9 @@ class Cart():
 
     def ok_item(self):
 
-      expect(self.backpack).to_be_visible
-      expect(self.bike_light).to_be_visible
-      expect(self.t_shirt).to_be_visible
+      expect(self.backpack).to_be_visible()
+      expect(self.bike_light).to_be_visible()
+      expect(self.t_shirt).to_be_visible()
 
 
       expect(self.backpack).to_contain_text("Sauce Labs Backpack")
